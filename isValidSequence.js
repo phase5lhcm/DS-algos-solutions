@@ -66,4 +66,4 @@ const isValidSubsequence = (array, sequence) => {
     }
   }
   
-  console.log(isValidSubsequence([1, 1, 1, 1, 1], [1, 1, 1]));
+  console.log(isValidSubsequence([1, 1, 1, 1, 1], [1, 1, 1])); // returns true
