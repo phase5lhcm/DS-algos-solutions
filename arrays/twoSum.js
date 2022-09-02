@@ -12,7 +12,7 @@ function twoSumNoRecursion(arr, targetSum) {
     let finalVals = [];
     if (arr[pointer] + arr[pointer + 1] === targetSum) {
       finalVals.push(arr[pointer], arr[pointer + 1]);
-      pointer++;
+      pointer++; // does this throw arr[pointer + 1 ] out of bounds?
     } else {
       return "No values add to target sum";
     }
